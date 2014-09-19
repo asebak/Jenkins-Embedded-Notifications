@@ -3,6 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="JenkinsWatch" Margin="189,263,205.4,22.8" Content="Start Jenkins Watch"></Button>
     </Grid>
 </Window>
