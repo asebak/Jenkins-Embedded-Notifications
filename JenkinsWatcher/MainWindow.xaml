@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Height="506.2" Width="712.2" ResizeMode="NoResize">
     <Grid>
         <Button x:Name="JenkinsWatch" Margin="281,409,304.6,31.8" Content="Start Jenkins Watch"></Button>
-        <ListView Name="JenkinsJobsView" HorizontalAlignment="Left" Height="394" Margin="10,10,0,0" VerticalAlignment="Top" Width="686">
+        <ListView Name="JenkinsJobsView" HorizontalAlignment="Left" Height="394" Margin="10,10,0,0" VerticalAlignment="Top" Width="686" MouseDoubleClick="JenkinsJobsView_MouseDoubleClick">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Width="200" Header="Job Name" DisplayMemberBinding="{Binding name}" />

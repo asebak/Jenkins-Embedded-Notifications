@@ -67,6 +67,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="JenkinsApi.cs" />
+    <Compile Include="JenkinsJobOverview.cs" />
     <Compile Include="JenkinsOverview.cs" />
     <Compile Include="JenkinsServer.cs" />
     <Compile Include="MainWindow.xaml.cs">

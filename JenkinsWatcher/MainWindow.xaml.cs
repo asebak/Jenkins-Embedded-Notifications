@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Timers;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -21,8 +22,14 @@ namespace JenkinsWatcher
     /// </summary>
     public partial class MainWindow
     {
+        /// <summary>
+        /// The server
+        /// </summary>
         private readonly JenkinsServer mServer;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="MainWindow"/> class.
+        /// </summary>
         public MainWindow()
         {
             InitializeComponent();
@@ -31,10 +38,29 @@ namespace JenkinsWatcher
             this.JenkinsWatch.Click += JenkinsWatch_Click;
         }
 
+        /// <summary>
+        /// Handles the Click event of the JenkinsWatch control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
         private void JenkinsWatch_Click(object sender, RoutedEventArgs e)
         {
             this.JenkinsWatch.IsEnabled = false;
             this.mServer.StartConnection();
+        }
+
+        /// <summary>
+        /// Handles the MouseDoubleClick event of the JenkinsJobsView control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="MouseButtonEventArgs"/> instance containing the event data.</param>
+        private void JenkinsJobsView_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            var selectedJob = ((FrameworkElement)e.OriginalSource).DataContext as Job;
+            if (selectedJob != null)
+            {
+                var jobDetails = this.mServer.GetJobOverview(selectedJob.url);
+            }
         }
     }
 }
