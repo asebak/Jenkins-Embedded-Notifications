@@ -19,7 +19,7 @@ namespace JenkinsWatcher
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow
     {
         private readonly JenkinsServer mServer;
 
@@ -27,6 +27,7 @@ namespace JenkinsWatcher
         {
             InitializeComponent();
             this.mServer = new JenkinsServer("http://192.168.0.107:8080/");
+            this.JenkinsJobsView.ItemsSource = this.mServer.mOverview.jobs;
             this.JenkinsWatch.Click += JenkinsWatch_Click;
         }
 

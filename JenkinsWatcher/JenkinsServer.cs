@@ -13,7 +13,7 @@ namespace JenkinsWatcher
         private Timer mTimer;
         private DateTime mStopTime;
         private string mServerUrl;
-        private JenkinsOverview mOverview;
+        public JenkinsOverview mOverview;
         private JenkinsApi mApi;
         public JenkinsServer(string serverUrl)
         {
