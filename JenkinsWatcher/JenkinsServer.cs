@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace JenkinsWatcher
 {
@@ -11,6 +12,15 @@ namespace JenkinsWatcher
     {
         private Timer mTimer;
         private DateTime mStopTime;
+        private string mServerUrl;
+        private JenkinsOverview mOverview;
+        private JenkinsApi mApi;
+        public JenkinsServer(string serverUrl)
+        {
+            this.mServerUrl = serverUrl;
+            this.mApi = new JenkinsApi(serverUrl + "api/json");
+            this.mOverview = this.mApi.Get<JenkinsOverview>();
+        }
         public void StartConnection()
         {
             this.mStopTime = DateTime.Now.AddMinutes(10);

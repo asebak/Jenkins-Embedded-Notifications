@@ -21,19 +21,19 @@ namespace JenkinsWatcher
     /// </summary>
     public partial class MainWindow : Window
     {
-        private JenkinsServer mServer;
+        private readonly JenkinsServer mServer;
 
         public MainWindow()
         {
             InitializeComponent();
+            this.mServer = new JenkinsServer("http://192.168.0.107:8080/");
             this.JenkinsWatch.Click += JenkinsWatch_Click;
-
         }
 
         private void JenkinsWatch_Click(object sender, RoutedEventArgs e)
         {
             this.JenkinsWatch.IsEnabled = false;
-            this.mServer = new JenkinsServer();
+            this.mServer.StartConnection();
         }
     }
 }
