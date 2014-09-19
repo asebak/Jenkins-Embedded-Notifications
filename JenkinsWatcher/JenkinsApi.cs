@@ -1,20 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿#region Using
+
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 using Newtonsoft.Json;
+
+#endregion
 
 namespace JenkinsWatcher
 {
     public class JenkinsApi
     {
         private readonly string mUrl;
+
         public JenkinsApi(string uri)
         {
             this.mUrl = uri;
         }
+
         public T Get<T>()
         {
             using (var httpClient = new HttpClient())
