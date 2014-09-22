@@ -13,7 +13,8 @@ import java.awt.event.MouseEvent;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.util.Map;
+import java.util.*;
+import java.util.Timer;
 
 /**
  * Created by asebak on 9/21/2014.
@@ -26,10 +27,13 @@ public class JenkinsWatcherForm extends JFrame {
     private JButton monitorBtn;
     private JenkinsServer jenkinsServer;
     private Map<String, Job> jenkinsJobs;
+    private java.util.Timer timer;
+    private JenkinsRealTime jenkinsRealTime;
     public JenkinsWatcherForm(){
         super("Jenkins Real-Time Build Monitor");
         this.setContentPane(this.jPanel);
         this.setButtonEvents();
+        this.timer = new Timer();
         //this.setTableEvents();
         this.pack();
         this.setVisible(true);
@@ -55,11 +59,17 @@ public class JenkinsWatcherForm extends JFrame {
         this.monitorBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e){
+                //not on
                 if(monitorBtn.getText() == "Stop Monitoring"){
                     monitorBtn.setText("Monitor");
-
-                }else{
+                }
+                //on
+                else{
+                    //Http://192.168.0.106:8080
                     monitorBtn.setText("Stop Monitoring");
+                    timer.cancel();
+                    timer = new Timer();
+                    timer.schedule(new JenkinsRealTime(jenkinsServer, getSelectedJobs()), 0, 2000);
                 }
 
             }
@@ -95,5 +105,17 @@ public class JenkinsWatcherForm extends JFrame {
             model.addRow(jobRow);
         }
         this.jTable.setModel(model);
+    }
+
+    private ArrayList<String> getSelectedJobs(){
+        ArrayList<String> jobNames = new ArrayList<String>();
+        for (int i = 0; i < this.jTable.getRowCount(); i++) {
+            boolean isChecked = (Boolean) this.jTable.getValueAt(i, 0);
+
+            if (isChecked) {
+                jobNames.add(this.jTable.getValueAt(i, 1).toString());
+            }
+        }
+        return jobNames;
     }
 }
