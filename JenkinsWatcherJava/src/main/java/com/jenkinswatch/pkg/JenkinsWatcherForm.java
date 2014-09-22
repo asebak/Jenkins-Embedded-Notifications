@@ -69,7 +69,7 @@ public class JenkinsWatcherForm extends JFrame {
                     monitorBtn.setText("Stop Monitoring");
                     timer.cancel();
                     timer = new Timer();
-                    timer.schedule(new JenkinsRealTime(jenkinsServer, getSelectedJobs()), 0, 2000);
+                    timer.schedule(new JenkinsRealTime(getSelectedJobs()), 0, 1000);
                 }
 
             }
@@ -107,13 +107,12 @@ public class JenkinsWatcherForm extends JFrame {
         this.jTable.setModel(model);
     }
 
-    private ArrayList<String> getSelectedJobs(){
-        ArrayList<String> jobNames = new ArrayList<String>();
+    private ArrayList<Job> getSelectedJobs(){
+        ArrayList<Job> jobNames = new ArrayList<Job>();
         for (int i = 0; i < this.jTable.getRowCount(); i++) {
             boolean isChecked = (Boolean) this.jTable.getValueAt(i, 0);
-
             if (isChecked) {
-                jobNames.add(this.jTable.getValueAt(i, 1).toString());
+                jobNames.add((Job)this.jenkinsJobs.values().toArray()[i]);
             }
         }
         return jobNames;
