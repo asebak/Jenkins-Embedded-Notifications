@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e328109-f315-4c71-ab54-ebdade171534" name="Default" comment="">
+    <list default="true" id="5e328109-f315-4c71-ab54-ebdade171534" name="Default" comment="Completed Jenkins watching build status">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lowlevelcommunication/pkg/EmbeddedDevice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rxtx_rxtx_2_1_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/rxtx_2_1_7.xml" />
+      <change type="DELETED" beforePath="C:\Users\abdo\Documents\GitHub\Jenkins-Embedded-Notifications\JenkinsWatcherJava\.idea\libraries\libs.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jenkinswatch/pkg/JenkinsRealTime.java" afterPath="$PROJECT_DIR$/src/main/java/com/jenkinswatch/pkg/JenkinsRealTime.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jenkinswatch/pkg/JenkinsWatcherForm.java" afterPath="$PROJECT_DIR$/src/main/java/com/jenkinswatch/pkg/JenkinsWatcherForm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JenkinsWatcherJava.iml" afterPath="$PROJECT_DIR$/JenkinsWatcherJava.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JenkinsWatcherJava.iws" />
@@ -27,46 +32,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JenkinsRealTime.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jenkinswatch/pkg/JenkinsRealTime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.374761" vertical-offset="530" max-vertical-offset="1320">
-              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JenkinsWatcherForm.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jenkinswatch/pkg/JenkinsWatcherForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="2178">
-              <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jenkinswatch/pkg/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmbeddedDevice.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lowlevelcommunication/pkg/EmbeddedDevice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.46860987" vertical-offset="0" max-vertical-offset="892">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,9 +78,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jenkinswatch/pkg/JenkinsWatcherForm.form" />
         <option value="$PROJECT_DIR$/src/main/java/com/jenkinswatch/pkg/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jenkinslowlevel/pkg/EmbeddedSystemCommunicator.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jenkinswatch/pkg/JenkinsWatcherForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jenkinswatch/pkg/JenkinsRealTime.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lowlevelcommunication/pkg/EmbeddedDevice.java" />
       </list>
     </option>
   </component>
@@ -120,6 +104,99 @@
         <expanded-state>
           <State>
             <id />
+          </State>
+          <State>
+            <id>AOP</id>
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Bean Validation issues</id>
+          </State>
+          <State>
+            <id>Class structure</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issues</id>
+          </State>
+          <State>
+            <id>Declaration redundancy</id>
+          </State>
+          <State>
+            <id>Dependency issues</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>FlexUnit inspections</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice Inspections</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>Memory issues</id>
+          </State>
+          <State>
+            <id>Modularization issues</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Packaging issues</id>
+          </State>
+          <State>
+            <id>Pattern Validation</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Security issues</id>
+          </State>
+          <State>
+            <id>Serialization issues</id>
+          </State>
+          <State>
+            <id>Spring Model</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>WebSocket issues</id>
+          </State>
+          <State>
+            <id>XPath</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -145,6 +222,11 @@
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="library-invalid-classes-path(library:project:rxtx-2.1.7)" />
+    </ignored-problems>
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -159,8 +241,27 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JenkinsWatcherJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.rxtx:rxtx:2.1.7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rxtx-2.1.7.jar" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="JenkinsWatcherJava" />
@@ -194,10 +295,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -236,16 +333,16 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pkg" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JenkinsWatcherForm" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -266,6 +363,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -275,7 +376,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,53 +388,27 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="project.propGUI" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\abdo\Documents\GitHub\Jenkins-Embedded-Notifications\JenkinsWatcherJava\lib" />
       <recent name="C:\Users\abdo\Documents\GitHub\Jenkins-Embedded-Notifications\JenkinsWatcherJava\libs" />
       <recent name="C:\Users\abdo\Documents\GitHub\Jenkins-Embedded-Notifications\JenkinsWatcherJava\resources" />
       <recent name="C:\Users\abdo\Documents\GitHub\Jenkins-Embedded-Notifications\JenkinsWatcherJava\src\com\jenkinswatch\pkg" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.jenkinswatch.pkg.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.jenkinswatch.pkg.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JenkinsWatcherJava" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -548,14 +622,37 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jenkinswatch.pkg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.jenkinswatch.pkg.Main" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=&quot;C:\Users\abdo\Documents\rxtxSerial.dll&quot;" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JenkinsWatcherJava" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -575,7 +672,8 @@
       <workItem from="1411377946743" duration="2256000" />
       <workItem from="1411380232459" duration="2515000" />
       <workItem from="1411384058473" duration="1551000" />
-      <workItem from="1411394071441" duration="2382000" />
+      <workItem from="1411394071441" duration="4356000" />
+      <workItem from="1411489622373" duration="58000" />
     </task>
     <task id="LOCAL-00001" summary="Added Java Gui Project">
       <created>1411332178715</created>
@@ -605,11 +703,15 @@
       <created>1411381988641</created>
       <updated>1411381988641</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Completed Jenkins watching build status">
+      <created>1411396499335</created>
+      <updated>1411396499335</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16963000" />
+    <option name="totallyTimeSpent" value="18995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -622,13 +724,12 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39891893" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39891893" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39891893" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39891893" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -641,6 +742,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -666,7 +768,8 @@
     <MESSAGE value="Added missing java files" />
     <MESSAGE value="Added table to support overiding" />
     <MESSAGE value="Updated Real-Time Monitoring watch dog timer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Real-Time Monitoring watch dog timer" />
+    <MESSAGE value="Completed Jenkins watching build status" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Jenkins watching build status" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -683,8 +786,14 @@
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lowlevelcommunication/pkg/EmbeddedDevice.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="46" />
+      <option name="time" value="48" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -696,11 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,7 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1562" max-vertical-offset="2794">
           <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="1386">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5522" max-vertical-offset="7106">
           <caret line="251" column="0" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,7 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1980">
           <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="2310">
           <caret line="51" column="16" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,11 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="902">
           <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -768,7 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
           <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,7 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1411">
           <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,7 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="799">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,7 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="1518">
           <caret line="51" column="16" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.038116593" vertical-offset="1088" max-vertical-offset="1980">
           <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -878,7 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4609" max-vertical-offset="6314">
           <caret line="251" column="0" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -886,42 +974,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43676814" vertical-offset="507" max-vertical-offset="1386">
           <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jenkinswatch/pkg/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jenkinswatch/pkg/JenkinsWatcherForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="2178">
+        <state vertical-scroll-proportion="1.502868" vertical-offset="930" max-vertical-offset="2178">
           <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jenkinswatch/pkg/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08413002" vertical-offset="0" max-vertical-offset="523">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jenkinswatch/pkg/JenkinsRealTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.374761" vertical-offset="530" max-vertical-offset="1320">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1364">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lowlevelcommunication/pkg/EmbeddedDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46860987" vertical-offset="0" max-vertical-offset="892">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1003,7 +1093,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>libs</last-edited>
+          <last-edited>Maven: org.rxtx:rxtx:2.1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
