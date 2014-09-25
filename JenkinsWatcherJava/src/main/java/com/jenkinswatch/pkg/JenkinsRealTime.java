@@ -28,7 +28,7 @@ public class JenkinsRealTime extends TimerTask{
                     Build build = jobWithDetails.getLastBuild();
                     BuildWithDetails buildWithDetails = build.details();
                     BuildResult buildResult =  buildWithDetails.getResult();
-                //Fix for bug reported on github
+                    //Fix for bug reported on github
                     if(buildResult == null){
                         buildResult = BuildResult.BUILDING;
                     }
